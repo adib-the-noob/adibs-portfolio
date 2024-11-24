@@ -9,7 +9,7 @@ const Hero = () => {
                 {/* picture section */}
                 <div className='w-full lg:w-1/2'> 
                     <div className='flex justify-center lg:p-8'>
-                        <img src={profilePic} alt="Mohammed Adib" className='border border-stone-200 rounded-2xl' />
+                        <img src={profilePic} alt="Mohammed Adib" className='border border-stone-900 rounded-2xl' />
                     </div>
                 </div>
 
