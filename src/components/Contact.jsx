@@ -8,7 +8,7 @@ const Contact = () => {
                     <p className="my-4">
                         {CONTACT.address}
                     </p>
-                    <p className="my-4">ki
+                    <p className="my-4">
                         {CONTACT.phoneNo}
                     </p>
                     <a href="#" className="border-b">
