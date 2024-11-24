@@ -13,15 +13,15 @@ const Technology = () => {
 
             <div className="flex flex-wrap items-center justify-center gap-4">
                 <div>
-                    <SiPython className="text-7xl text-blue-400" /> {/* Python's blue color */}
+                    <SiPython className="text-7xl text-white" /> {/* Python's blue color */}
                 </div>
 
                 <div className="p-4">
-                    <SiJavascript className="text-7xl text-yellow-500" /> {/* JavaScript's yellow color */}
+                    <SiJavascript className="text-7xl text-yellow-400" /> {/* JavaScript's yellow color */}
                 </div>
 
                 <div className="p-4">
-                    <SiCplusplus className="text-7xl text-pink-700" /> {/* C++'s blue shade */}
+                    <SiCplusplus className="text-7xl text-sky-800" /> {/* C++'s blue shade */}
                 </div>
 
                 <div className="p-4">
@@ -53,7 +53,7 @@ const Technology = () => {
                 </div>
 
                 <div className='p-4'>
-                    <FaAws className="text-7xl text-white" /> {/* AWS's yellow */}
+                    <FaAws className="text-7xl text-orange-500" /> {/* AWS's yellow */}
                 </div>
 
                 <div className='p-4'>
