@@ -1,7 +1,6 @@
 import { SiPython, SiJavascript, SiCplusplus, SiDjango, SiFastapi, SiMongodb, SiPostgresql, SiDocker, SiMicrosoftazure, SiNginx, SiCelery, SiGithubactions, SiLinux, SiGnubash, SiGit } from 'react-icons/si';
 import { FaAws } from 'react-icons/fa6';
 import { DiRedis } from "react-icons/di";
-import { RiReactjsLine } from "react-icons/ri";
 import { SiFfmpeg } from "react-icons/si";
 
 
