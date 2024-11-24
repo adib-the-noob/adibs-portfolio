@@ -1,5 +1,5 @@
-import { FaFacebook, FaXTwitter } from "react-icons/fa6";
 import logo from "../assets/adibs-icon.webp"
+import { FaFacebook, FaXTwitter } from "react-icons/fa6";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Navbar = () => {
