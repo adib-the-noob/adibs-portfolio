@@ -5,6 +5,9 @@ import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
 
+import { Analytics } from "@vercel/analytics/react"
+
+
 const App = () => {
   return (
     <div className="overflow-hidden text-stone-100 antialiased">
@@ -18,6 +21,7 @@ const App = () => {
       </div>
 
       <div className="container mx-auto px-8">
+        <Analytics />
         <Navbar />
         <Hero />
         <Technology />
