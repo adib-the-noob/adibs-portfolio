@@ -60,8 +60,8 @@ export const PROJECTS = [
     image: project3,
     documentation: "#",
     description:
-      "A platform for connecting mentees with mentors, featuring user authentication, profile management, and third-party integrations for OTP verification and session scheduling with Mentors through Google Calender.",
-    technologies: ["Django REST Framework", "PostgreSQL", "Third-party API Integrations"],
+      "A platform for connecting mentees with mentors, featuring user authentication, profile management, and third-party integrations for OTP verification and session scheduling with Mentors through Google Calender, which was deployed on Azure.",
+    technologies: ["Django", "PostgreSQL", "Twillio", "Azure", "Google Calender API"],
   },
 ];
 
