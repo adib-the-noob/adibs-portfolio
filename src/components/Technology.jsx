@@ -1,4 +1,4 @@
-import { SiPython, SiJavascript, SiCplusplus, SiDjango, SiFastapi, SiMongodb, SiPostgresql, SiDocker, SiMicrosoftazure, SiNginx, SiCelery, SiGithubactions, SiLinux, SiGnubash, SiGit } from 'react-icons/si';
+import { SiPython, SiJavascript, SiCplusplus, SiDjango, SiFastapi, SiMongodb, SiPostgresql, SiDocker, SiMicrosoftazure, SiNginx, SiCelery, SiGithubactions, SiLinux, SiGnubash, SiGit, SiRabbitmq, SiSocketdotio } from 'react-icons/si';
 import { FaAws } from 'react-icons/fa6';
 import { DiRedis } from "react-icons/di";
 import { SiFfmpeg } from "react-icons/si";
@@ -11,7 +11,7 @@ const Technology = () => {
                 Technologies
             </h2>
 
-            <div className="flex flex-wrap items-center justify-center gap-4">
+            <div className="flex flex-wrap items-center justify-center gap-2">
                 <div>
                     <SiPython className="text-7xl text-white" /> {/* Python's blue color */}
                 </div>
@@ -37,15 +37,11 @@ const Technology = () => {
                 </div>
 
                 <div className="p-4">
-                    <SiPostgresql className="text-7xl text-sky-500" /> {/* PostgreSQL's blue */}
+                    <SiPostgresql className="text-7xl text-postgres-blue" /> {/* PostgreSQL's blue */}
                 </div>
 
                 <div className="p-4">
                     <SiMongodb className="text-7xl text-green-500" /> {/* MongoDB's green */}
-                </div>
-
-                <div className="p-4">
-                    <DiRedis className="text-7xl text-red-600" /> {/* Redis's red */}
                 </div>
 
                 <div className='p-4'>
@@ -57,11 +53,23 @@ const Technology = () => {
                 </div>
 
                 <div className='p-4'>
+                    <SiSocketdotio className="text-7xl text-teal-500" /> {/* Socket.io's black */}
+                </div>
+
+                <div className='p-4'>
                     <SiNginx className="text-7xl text-green-600" /> {/* Nginx's green */}
+                </div>
+
+                <div className="p-4">
+                    <DiRedis className="text-7xl text-red-600" /> {/* Redis's red */}
                 </div>
 
                 <div className='p-4'>
                     <SiCelery className="text-7xl text-green-500" /> {/* Celery's green */}
+                </div>
+                
+                <div className='p-4'>
+                    <SiRabbitmq className="text-7xl text-orange-500" /> {/* RabbitMQ's orange */}
                 </div>
 
                 <div className='p-4'>
