@@ -18,8 +18,13 @@ const Project = () => {
                         </div>
                             <div className="w-full max-w-xl lg:w-3/4">
                                 <h3 className="mb-2 font-semibold text-2xl">
-                                    {project.title}
-                                </h3>
+                                        <a 
+                                            href={project.documentation}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="text-stone-200 hover:text-stone-300"
+                                        >{project.title}</a>
+                                    </h3>
                                 <p className="mb-4 text-stone-400">
                                     {project.description}
                                 </p>

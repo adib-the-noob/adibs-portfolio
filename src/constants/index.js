@@ -42,22 +42,25 @@ export const PROJECTS = [
   {
     title: "HLS Video Transcoder Application",
     image: project1,
+    documentation: "https://docs.google.com/document/d/1tBYYhKEMS6DsvuMOnqGn4sLzDx1NAZhm4FrKQIJxU9s/edit?usp=sharing",
     description:
-      "A robust video transcoding service leveraging HLS with distributed architecture using FastAPI, FFMPEG, and AWS services for low-latency streaming.",
+      "A robust video transcoding service leveraging HLS with distributed architecture using FastAPI, FFMPEG, and AWS services for streaming on Adaptive Bitrates like 1080p, 720p, 480p based on client's Network Condition.",
     technologies: ["FastAPI", "FFMPEG", "AWS ECS", "Lambda", "SQS", "S3", "CloudFront"],
   },
   {
     title: "Btalk - Social Media Application",
     image: project2,
+    documentation: "#",
     description:
-      "A scalable social media backend with real-time communication through WebSocket integration and cloud deployment for optimized performance.",
-    technologies: ["Django", "Django Channels", "AWS", "WebSocket", "PostgreSQL", "Docker"],
+      "A scalable social media backend with real-time communication through WebSocket integration for both Private and Group chats and cloud deployment for optimized performance on AWS using Docker and NGINX as reverse proxy.",
+    technologies: ["Django", "AWS", "WebSocket", "PostgreSQL", "Docker", "NGINX"],
   },
   {
     title: "Project Jeetubhaiya - Mentoring Platform",
     image: project3,
+    documentation: "#",
     description:
-      "A platform for connecting users with mentors, featuring user authentication, profile management, and third-party integrations for OTP verification and session scheduling.",
+      "A platform for connecting mentees with mentors, featuring user authentication, profile management, and third-party integrations for OTP verification and session scheduling with Mentors through Google Calender.",
     technologies: ["Django REST Framework", "PostgreSQL", "Third-party API Integrations"],
   },
 ];
