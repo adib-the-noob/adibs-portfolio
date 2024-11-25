@@ -40,34 +40,28 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "HLS Video Transcoder Application",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A robust video transcoding service leveraging HLS with distributed architecture using FastAPI, FFMPEG, and AWS services for low-latency streaming.",
+    technologies: ["FastAPI", "FFMPEG", "AWS ECS", "Lambda", "SQS", "S3", "CloudFront"],
   },
   {
-    title: "Task Management App",
+    title: "Btalk - Social Media Application",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A scalable social media backend with real-time communication through WebSocket integration and cloud deployment for optimized performance.",
+    technologies: ["Django", "Django Channels", "AWS", "WebSocket", "PostgreSQL", "Docker"],
   },
   {
-    title: "Portfolio Website",
+    title: "Project Jeetubhaiya - Mentoring Platform",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A platform for connecting users with mentors, featuring user authentication, profile management, and third-party integrations for OTP verification and session scheduling.",
+    technologies: ["Django REST Framework", "PostgreSQL", "Third-party API Integrations"],
   },
 ];
+
 
 export const CONTACT = {
   address: "522/01, Kaliajury-Racecourse Road, Cumilla, Bangladesh ",
