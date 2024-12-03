@@ -45,7 +45,7 @@ const Navbar = () => {
                     <FaXTwitter />
                 </a>
                 <a 
-                    href="https://www.facebook.com/noob.adib/"
+                    href="https://www.facebook.com/adibthenoob11/"
                     target="_blank"
                     rel="noreferrer"
                     aria-label="Facebook"
