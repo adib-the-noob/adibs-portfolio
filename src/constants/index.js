@@ -45,7 +45,7 @@ export const PROJECTS = [
     documentation: "https://docs.google.com/document/d/1tBYYhKEMS6DsvuMOnqGn4sLzDx1NAZhm4FrKQIJxU9s/edit?usp=sharing",
     description:
       "A robust video transcoding service leveraging HLS with distributed architecture using FastAPI, FFMPEG, and AWS services for streaming on Adaptive Bitrates like 1080p, 720p, 480p based on client's Network Condition.",
-    technologies: ["Python", "FastAPI", "FFMPEG", "AWS ECS", "Lambda", "SQS", "S3", "CloudFront"],
+    technologies: ["FastAPI", "FFMPEG", "AWS ECS", "Lambda", "SQS", "S3", "CloudFront"],
   },
   {
     title: "Btalk - Social Media Application",
