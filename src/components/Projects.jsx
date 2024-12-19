@@ -17,7 +17,7 @@ const Project = () => {
                             />
                         </div>
                             <div className="w-full max-w-xl lg:w-3/4">
-                                <h3 className="mb-2 font-semibold text-2xl">
+                                <h3 className="mb-2 font-semibold text-2xl transition-colors duration-300 hover:text-blue-500 hover:underline">
                                         <a 
                                             href={project.documentation}
                                             target="_blank"
